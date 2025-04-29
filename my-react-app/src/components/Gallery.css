@@ -1,0 +1,20 @@
+.gallery-section{
+    background-color: rgb(123, 123, 231);
+}
+
+.gallery-grid{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery-grid img{
+    width: 15%;
+    border-radius: 40px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-grid img:hover{
+    transform: scale(1.05);
+}
+

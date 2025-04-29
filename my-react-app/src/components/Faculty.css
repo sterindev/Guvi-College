@@ -1,0 +1,25 @@
+.faculty-section{
+    background-color: rgb(255, 255, 255);
+}
+
+.faculty-cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.faculty-card{
+    background-color: beige;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 30%;
+}
+.faculty-card h3{
+    color: goldenrod;
+    margin-bottom: 10px;
+}
+
+.faculty-card p{
+    color: #555;
+    font-size: 16px;
+}

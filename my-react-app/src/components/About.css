@@ -1,0 +1,25 @@
+.about-section{
+    background: aliceblue;
+}
+.about-cards{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card{
+    background: cadetblue;
+    padding: 20px;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
+}
+.card h3{
+    font-size: 23px;
+    margin-bottom: 10px;
+    color: greenyellow;
+}
+.card p{
+    color:rgb(246, 226, 224);
+    font-size: 16px;
+}
